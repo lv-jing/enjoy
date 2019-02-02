@@ -139,7 +139,7 @@
 			},
 			btn(index){
 				this.arr.splice(index,1);
-				var arr1 = SON.stringify(this.arr);J
+				var arr1 = JSON.stringify(this.arr);
 				localStorage.setItem("car",arr1)
 			}
 
